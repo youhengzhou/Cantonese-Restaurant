@@ -19,9 +19,10 @@ document.querySelector(".create").addEventListener("click", function (event) {
 
 document.querySelector(".retrieve").addEventListener("click", function (event) {
   event.preventDefault();
-  const lastDish = document.querySelector(".heading").textContent;
-  document.querySelector(".input-dish").value = lastDish;
-  document.querySelector(".selected-dish").textContent = lastDish;
+  var container = document.getElementById("menu");
+  var lastchild = container.lastChild;
+  document.querySelector(".input-dish").value = lastchild;
+  document.querySelector(".selected-dish").textContent = lastchild;
 });
 
 document.querySelector(".update").addEventListener("click", function (event) {
