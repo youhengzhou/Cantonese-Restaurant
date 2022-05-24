@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(216, 219, 164);
+  font-family: consolas;
+  font-size: 14px;
+  padding: 75px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.menu {
+  width: 100px;
+  margin: auto;
+  list-style-position: inside;
+}
+
+.form-thing {
+  background-color: rgba(255, 255, 255, 0.562);
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.buttons {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
